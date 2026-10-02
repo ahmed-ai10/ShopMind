@@ -1,0 +1,24 @@
+# Local database configuration / secrets
+fun/db_config.local.php
+.env
+.env.*
+!.env.example
+
+# Local tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies installed locally
+node_modules/
+
+# Runtime/log/cache files
+*.log
+*.cache
+
+# Local database exports/backups
+*.sql.gz
+*.dump
+*.bak
